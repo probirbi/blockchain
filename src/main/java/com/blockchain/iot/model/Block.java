@@ -12,16 +12,19 @@ public class Block {
     private String hash;
     private String previousHash;
     private String description;
-    private Sensor data;
+    private Object data;
     private long timeStamp;
     private int nonce;
+    private int node;
+    private double trustScore;
 
-    public Block(String description, Sensor data, String previousHash, long timeStamp) {
+    public Block(String description, Object data, String previousHash, long timeStamp, int node) {
         this.description = description;
         this.data = data;
         this.previousHash = previousHash;
         this.timeStamp = timeStamp;
         this.hash = calculateBlockHash();
+        this.node = node;
     }
 
     public String mineBlock(int prefix) {

@@ -11,7 +11,7 @@
     <groupId>com.blockchain</groupId>
     <artifactId>iot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Temperature</name>
+    <name>Blockchain</name>
     <description>Blockchain-based trust evaluation system for IoT services and service providers</description>
 
     <properties>
@@ -23,6 +23,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -6,15 +6,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class TemperatureApplication {
+public class BlockchainApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TemperatureApplication.class, args);
+        SpringApplication.run(BlockchainApplication.class, args);
     }
-
-    @Bean
-    public RestTemplate getRestTemplate() {
-        return new RestTemplate();
-    }
-
 }

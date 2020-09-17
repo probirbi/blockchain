@@ -11,5 +11,4 @@ public class ParkingSpace {
     private int totalSpace;
     private int parkedSpace;
     private int freeSpace;
-    private String location;
 }

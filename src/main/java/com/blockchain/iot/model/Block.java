@@ -17,6 +17,7 @@ public class Block {
     private int nonce;
     private int node;
     private double trustScore;
+    private double rating;
 
     public Block(String description, Object data, String previousHash, long timeStamp, int node) {
         this.description = description;
